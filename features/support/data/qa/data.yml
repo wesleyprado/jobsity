@@ -1,0 +1,10 @@
+DATA:
+  order1:
+    orderID: "1"
+    billingLastName: "test"
+    email: "test@test.com"
+
+  order2:
+    orderID: "2"
+    billingLastName: "test2"
+    email: "test2@test.com"
