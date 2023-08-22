@@ -1,0 +1,6 @@
+Gemfile.lock
+/reports/*.html
+/reports/*.json
+.idea
+tmp
+.vscode/
