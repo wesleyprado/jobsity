@@ -1,6 +1,6 @@
-# QRCODE-SERVICE-TEST
+#  JOBSIT-TEST
 
-## Configuração de ambiente
+## Env Config
 
 ## Pré requesites:
 
@@ -44,17 +44,26 @@ bundle install
 ## To run the tests in dev
 
  ```sh
-cucumber -p dev
+cucumber -p dev -p json
 ```
-## To run the tests in sandbox
+## To run the tests in homolog
 
  ```sh
-cucumber -p sandbox
+cucumber -p hmg -p json
 ```
 ## To run the tests in prod
 
  ```sh
-cucumber -p prod
+cucumber -p prod -p json
+```
+
+## To run the tests in docker
+
+  # You need to update de files with valid information and have the docker installed
+
+ ```sh
+docker-compose build
+docker-compose up
 ```
 
 ## Report
